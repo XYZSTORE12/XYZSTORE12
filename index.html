@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An independent guide to evaluating Telegram mini-app games, reward conditions, privacy, and payout requirements.">
+  <title>MRKT Daily | Mini-App Guide</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b1020;
+      color: #f4f7ff;
+      line-height: 1.65;
+    }
+
+    a { color: #6ee7c5; }
+
+    .container {
+      width: 90%;
+      max-width: 1060px;
+      margin: auto;
+    }
+
+    header {
+      padding: 20px 0;
+      border-bottom: 1px solid #29344c;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      color: #6ee7c5;
+      font-weight: 800;
+      font-size: 21px;
+      letter-spacing: .7px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #b7c3d9;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 0 54px;
+    }
+
+    .tag {
+      color: #6ee7c5;
+      font-weight: bold;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: clamp(36px, 7vw, 60px);
+      line-height: 1.12;
+      margin: 18px 0;
+    }
+
+    h1 span { color: #6ee7c5; }
+
+    .lead {
+      color: #b7c3d9;
+      max-width: 730px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 21px;
+      border-radius: 10px;
+      background: #6ee7c5;
+      color: #07151a;
+      text-decoration: none;
+      font-weight: 800;
+      margin-top: 23px;
+    }
+
+    section { padding: 28px 0; }
+
+    h2 {
+      font-size: clamp(25px, 4vw, 33px);
+      line-height: 1.25;
+      margin: 0 0 12px;
+    }
+
+    h3 { margin: 0 0 8px; }
+
+    .intro {
+      color: #b7c3d9;
+      max-width: 760px;
+      margin-bottom: 22px;
+    }
+
+    .cards, .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .card {
+      padding: 22px;
+      background: #131b30;
+      border: 1px solid #29344c;
+      border-radius: 16px;
+    }
+
+    .icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .card p, .card li {
+      color: #b7c3d9;
+      font-size: 14px;
+    }
+
+    .checklist {
+      background: #131b30;
+      border: 1px solid #29344c;
+      border-radius: 16px;
+      padding: 23px;
+    }
+
+    .checklist li {
+      margin: 9px 0;
+      color: #b7c3d9;
+    }
+
+    .step {
+      border-left: 3px solid #6ee7c5;
+      background: #10182b;
+      padding: 17px;
+      border-radius: 0 12px 12px 0;
+    }
+
+    .step p {
+      color: #b7c3d9;
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .callout {
+      background: #151f35;
+      border: 1px solid #394968;
+      padding: 19px;
+      border-radius: 13px;
+      color: #b7c3d9;
+      font-size: 14px;
+      margin: 24px 0;
+    }
+
+    .join {
+      text-align: center;
+      padding: 38px 20px;
+      margin: 30px 0;
+      background: linear-gradient(135deg, #152c36, #18213c);
+      border: 1px solid #31504e;
+      border-radius: 20px;
+    }
+
+    .join p {
+      color: #b7c3d9;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    footer {
+      margin-top: 35px;
+      border-top: 1px solid #29344c;
+      padding: 24px 0 35px;
+      color: #96a4bc;
+      font-size: 13px;
+    }
+
+    footer p { margin: 5px 0; }
+
+    @media (max-width: 760px) {
+      .cards, .steps { grid-template-columns: 1fr; }
+      .hero { padding: 48px 0 35px; }
+      .lead { font-size: 16px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">MRKT DAILY</div>
+        <a href="#guide">Read the mini-app guide ↓</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="tag">INDEPENDENT MINI-APP GUIDE</div>
+
+      <h1>
+        Explore Mini-Apps.<br>
+        <span>Understand the Rules.</span>
+      </h1>
+
+      <p class="lead">
+        MRKT Daily shares information about Telegram mini-app games
+        and tap-to-play activities. Use this guide to understand
+        common reward models, check app terms, and make informed
+        decisions before spending time or sharing information.
+      </p>
+
+      <a class="button" href="#guide">Read the guide</a>
+    </section>
+
+    <section class="container" id="guide">
+      <h2>How mini-app rewards can work</h2>
+
+      <p class="intro">
+        Different apps use different reward systems. A displayed
+        point or token balance does not necessarily mean you can
+        withdraw money. Always verify the rules inside the specific app.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🎮</div>
+          <h3>Gameplay rewards</h3>
+          <p>
+            Some apps award points for tapping, playing, completing
+            levels, or checking in. Points may only be usable inside
+            the app and may have no cash value.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🪙</div>
+          <h3>Points and tokens</h3>
+          <p>
+            Some projects display points or digital tokens. A token's
+            future value, exchange availability, and ability to be
+            sold are not guaranteed.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📋</div>
+          <h3>Eligibility and payouts</h3>
+          <p>
+            Reward programmes may have location limits, minimum
+            thresholds, deadlines, identity requirements, or other
+            conditions. Read the app's official terms.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>Before trying an app: a quick checklist</h2>
+
+      <p class="intro">
+        Use these checks for each app rather than assuming all
+        mini-apps work the same way.
+      </p>
+
+      <div class="checklist">
+        <ul>
+          <li>Find the app's official terms and privacy policy, if available.</li>
+          <li>Confirm what a reward represents and whether it can be withdrawn.</li>
+          <li>Check payout thresholds, fees, eligibility, and country restrictions.</li>
+          <li>Never assume a reward amount or token price will increase.</li>
+          <li>Be cautious if an app asks for an upfront payment to unlock a payout.</li>
+          <li>Never share passwords, login codes, or wallet recovery phrases.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2>How to evaluate a mini-app</h2>
+
+      <div class="steps">
+        <div class="step">
+          <strong>1. Identify the operator</strong>
+          <p>
+            Check who runs the app and whether the project's
+            official information is consistent.
+          </p>
+        </div>
+
+        <div class="step">
+          <strong>2. Read the conditions</strong>
+          <p>
+            Look for eligibility rules, payout details, fees,
+            data collection, and restrictions.
+          </p>
+        </div>
+
+        <div class="step">
+          <strong>3. Decide for yourself</strong>
+          <p>
+            Only participate if you understand the conditions
+            and are comfortable with the risks.
+          </p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>How this page works:</strong>
+        This is an independent informational guide. It does not
+        verify, certify, or guarantee any mini-app, reward, token,
+        or payout. App terms can change; check the app's own
+        current information before participating.
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="join">
+        <h2>More mini-app discussions</h2>
+
+        <p>
+          Visit the MRKT Daily Telegram channel for the mini-apps
+          and updates shared by the channel. Review each app
+          independently and check its terms before taking part.
+        </p>
+
+        <a class="button"
+           href="https://t.me/mrktdailyr"
+           target="_blank"
+           rel="noopener noreferrer">
+          Open MRKT Daily on Telegram ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>MRKT Daily</strong> — independent informational page.</p>
+      <p>This page is not affiliated with or endorsed by Telegram.</p>
+      <p>No earnings or payouts are promised.</p>
+      <p>Review each app's terms and privacy information before participating.</p>
+    </div>
+  </footer>
+</body>
+</html>
